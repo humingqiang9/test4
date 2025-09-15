@@ -1,0 +1,5 @@
+This is a sample text file for testing the word frequency counter.
+This file contains several words, and some words are repeated multiple times.
+The purpose is to test the Perl script that counts word frequency.
+Word frequency analysis is useful for text processing applications.
+This is the end of the sample text file.
