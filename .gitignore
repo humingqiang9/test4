@@ -1,1 +1,25 @@
-(Empty — output nothing)
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Environment
+.env
+.env.local
+
+#Editors
+.vscode/
+.idea/
+
+#System/Temp files
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*.log
