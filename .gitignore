@@ -5,18 +5,13 @@ dist/
 build/
 
 # Dependencies
-vendor/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.venv/
+venv/
+node_modules/
 
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
-.idea/
