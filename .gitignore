@@ -1,32 +1,19 @@
-# Compiled and build artifacts
-*.pyc
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
+# Temp files and logs
 *.tmp
+*.log
 *.swp
+*.swo
 
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# Editor/IDE files
 .vscode/
 .idea/
-
-# System/Environment files
 .DS_Store
 Thumbs.db
 
-# Original rules preserved
-*.log
+# Server config files (likely containing sensitive or dynamic data)
+server_config_*.json
