@@ -1,8 +1,13 @@
 # Compiled and build artifacts
-*.ts
-angular-components/
+*.pyc
+*.o
+*.obj
+dist/
+build/
 
 # Dependencies
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -18,3 +23,10 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
