@@ -1,6 +1,15 @@
-# Environment files
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment
 .env
 .env.local
 
-# IDE files
+# Editors
 .vscode/
