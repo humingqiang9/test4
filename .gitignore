@@ -1,5 +1,5 @@
 # Compiled and build artifacts
-*.class
+*.ex
 *.pyc
 __pycache__/
 dist/
@@ -7,8 +7,8 @@ build/
 
 # Dependencies
 node_modules/
-venv/
 .venv/
+venv/
 
 # Logs and temp files
 *.log
