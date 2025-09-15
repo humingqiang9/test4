@@ -1,14 +1,37 @@
+#Dependencies
+node_modules/
+
+#Environment
+.env
+.env.local
+
 #Editor/IDE files
 .vscode/
 
-#Environment files
-.env.local
+#Build artifacts
+dist/
+build/
+
+#Logs and temp files
+*.log
+*.tmp
+*.swp
 
 #Compiled/Binary files
 *.pyc
+__pycache__/
+*.class
+*.o
+*.obj
+*.dll
+*.exe
+*.so
+*.a
+*.out
 
-#Dependency directories
-node_modules/
+#System files
+.DS_Store
+Thumbs.db
 
-#Build artifacts
-dist/
+#Test artifacts
+test_*.*
