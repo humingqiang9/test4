@@ -1,6 +1,11 @@
-# Environment files
+#CI/CD
+*.yml
+
+#Environment
 .env
 .env.local
+.env.*
 
-# IDE files
+#Editors
 .vscode/
+.idea/
