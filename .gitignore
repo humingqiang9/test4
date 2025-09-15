@@ -1,4 +1,5 @@
 # Compiled and build artifacts
+*.pyc
 *.class
 *.o
 *.obj
@@ -6,19 +7,18 @@
 *.dll
 *.so
 *.a
-*.out
 dist/
 build/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
 target/
+.gradle/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-.gradle/
 
 # Logs and temp files
 *.log
@@ -31,14 +31,10 @@ __pycache__/
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.iml
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
-
-# Original rules preserved
-*.log
