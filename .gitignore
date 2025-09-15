@@ -1,17 +1,9 @@
-# Compiled and build artifacts
-*.sh
-dist/
-build/
-
-# Dependencies
-node_modules/
-.venv/
-venv/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Protobuf generated files
+*.pb.go
+*.pb.h
+*.pb.cc
+*_pb2.py
+*_pb2_grpc.py
 
 # Environment
 .env
@@ -21,7 +13,9 @@ venv/
 # Editors
 .vscode/
 .idea/
+*.swp
+*.swo
 
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Logs and temp files
+*.log
+*.tmp
