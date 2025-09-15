@@ -1,14 +1,9 @@
 # Compiled and build artifacts
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
+*.ts
+angular-components/
 
 # Dependencies
 node_modules/
-venv/
-.venv/
 
 # Logs and temp files
 *.log
