@@ -1,9 +1,28 @@
 # Compiled and build artifacts
-*.ts
-userProfileComponent_36lqaFc.ts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.pyc
+__pycache__/
+build/
+dist/
 
 # Dependencies
+venv/
+.venv/
 node_modules/
+.mypy_cache/
+.pytest_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -13,12 +32,5 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System/Environment files
 .DS_Store
 Thumbs.db

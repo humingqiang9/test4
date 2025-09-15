@@ -1,0 +1,60 @@
+# Makefile for C++ project
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+INCLUDES = -Iinclude
+
+# Directories
+SRCDIR = src
+TESTDIR = tests
+BUILDDIR = build
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+TEST_SOURCES = $(wildcard $(TESTDIR)/*.cpp)
+
+# Object files
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+TEST_OBJECTS = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Executables
+TARGET = $(BUILDDIR)/main
+TEST_TARGET = $(BUILDDIR)/test
+
+# Default target
+all: build
+
+# Build target - creates the main executable
+build: $(TARGET)
+
+$(TARGET): $(OBJECTS) | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Test target - builds and runs tests
+test: $(TEST_TARGET)
+	./$(TEST_TARGET)
+
+$(TEST_TARGET): $(TEST_OBJECTS) $(filter-out $(BUILDDIR)/main.o, $(OBJECTS)) | $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) -o $@ $^
+
+# Compile source files to object files
+$(BUILDDIR)/%.o: $(SRCDIR)/%.cpp
+	@mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Compile test files to object files
+$(BUILDDIR)/%.o: $(TESTDIR)/%.cpp
+	@mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -c $< -o $@
+
+# Create build directory
+$(BUILDDIR):
+	mkdir -p $(BUILDDIR)
+
+# Clean target - removes build artifacts
+clean:
+	rm -rf $(BUILDDIR)
+
+# Phony targets
+.PHONY: all build test clean
