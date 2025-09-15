@@ -1,18 +1,31 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+# R project artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
 
-# Other files and folders
-.settings/
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+# Dependencies
+.venv/
+venv/
+node_modules/
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
