@@ -5,8 +5,9 @@ dist/
 build/
 
 # Dependencies
-vendor/
 node_modules/
+.venv/
+venv/
 
 # Logs and temp files
 *.log
@@ -16,14 +17,7 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
