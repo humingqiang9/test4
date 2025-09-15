@@ -1,10 +1,48 @@
 # Compiled and build artifacts
-*.pyc
-pycache/
+*.fsproj
+*.sln
+*.user
+*.userosscache
+*.suo
+*.pdb
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.o
+*.obj
 dist/
+build/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
+.env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+*.mdf
+*.ldf
+
+# System
+.DS_Store
+Thumbs.db
