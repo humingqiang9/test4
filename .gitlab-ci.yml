@@ -1,0 +1,22 @@
+# This file is a .gitlab-ci.yml file that defines how tests should be run in the CI pipeline
+
+stages:
+  - test
+
+variables:
+  # Define any variables needed for the test environment
+  NODE_VERSION: "16"
+
+# Job to run tests
+test_job:
+  stage: test
+  image: node:$NODE_VERSION
+  script:
+    - echo "Starting test job"
+    - npm install
+    - npm test
+  artifacts:
+    reports:
+      junit: test-results.xml
+  only:
+    - branches

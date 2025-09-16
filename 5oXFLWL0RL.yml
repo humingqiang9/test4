@@ -1,0 +1,21 @@
+# This is a randomly named YAML file with test configuration
+
+test_configuration:
+  environment:
+    node_version: "16"
+    test_framework: "jest"
+  
+  steps:
+    - name: "Install dependencies"
+      command: "npm install"
+    
+    - name: "Run tests"
+      command: "npm test"
+      
+  artifacts:
+    - "test-results.xml"
+    - "coverage/"
+    
+  triggers:
+    - "push"
+    - "merge_request"
