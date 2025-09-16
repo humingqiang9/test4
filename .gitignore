@@ -1,40 +1,26 @@
-# Executables and build artifacts
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.obj
+# Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
+*.obj
 dist/
 build/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Environment and sensitive files
-.env
-.env.local
-.env.*
-
-# Editors and IDEs
-.vscode/
-.idea/
-*.swp
-*.swo
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
-.DS_Store
-Thumbs.db
+*.swp
 
-# Original rules preserved
-*.log
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
