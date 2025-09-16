@@ -1,12 +1,37 @@
 # Compiled and build artifacts
-*.pyc
+*.fs.js
+*.fs.map
+*.fs.ast
+*.fs.types
+*.fs.build
+*.o
+*.obj
 dist/
+build/
 
 # Dependencies
 node_modules/
+julia-*/
+zig/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
+.env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
