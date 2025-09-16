@@ -1,28 +1,25 @@
-#Backup files and scripts
-backup_*/  
-*.sh
-
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Environment
-.env
+# Docker
+*.env
 .env.local
 .env.*
 
-#Editors
+# Compiled and build artifacts
+dist/
+build/
+
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Editors
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
