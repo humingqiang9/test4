@@ -1,26 +1,26 @@
-# Compiled and build artifacts
-*.fsproj
-*.sln
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-*.cache
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+#Dependencies
+.venv/
+venv/
+node_modules/
+
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Dependencies
-packages/
-bin/
-obj/
-.vs/
-
-# Environment
+#Environment
 .env
 .env.local
 .env.*
 
-# IDEs
-*.vscode
-*.idea
+#Editors
+.vscode/
+.idea/
