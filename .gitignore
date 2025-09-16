@@ -1,20 +1,39 @@
 # Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
 *.o
 *.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
+*.jar
+*.war
+*.ear
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
 dist/
 build/
+target/
+.gradle/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
+venv/
+.venv/
+julia-*/
+zig/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,3 +43,9 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.sublime-project
+*.sublime-workspace
+
+# System
+.DS_Store
+Thumbs.db
