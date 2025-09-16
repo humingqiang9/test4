@@ -1,0 +1,16 @@
+
+# This script was generated automatically
+# It created a DataFrame and filtered it based on age and salary criteria
+
+import pandas as pd
+
+# Original data
+data = {'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve'], 'Age': [25, 32, 18, 47, 22], 'City': ['New York', 'London', 'Paris', 'Tokyo', 'Berlin'], 'Salary': [50000, 75000, 30000, 90000, 45000]}
+
+df = pd.DataFrame(data)
+
+# Applied filter: Age > 25 and Salary > 40000
+filtered_df = df[(df['Age'] > 25) & (df['Salary'] > 40000)]
+
+print("Filtered Results:")
+print(filtered_df)
