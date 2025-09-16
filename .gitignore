@@ -1,6 +1,7 @@
 # Compiled and build artifacts
-*.pyc
-gcf_function_*.js
+*.css.map
+dist/
+build/
 
 # Dependencies
 node_modules/
