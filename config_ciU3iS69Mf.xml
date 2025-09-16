@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application-config>
+    <!-- 应用基本信息 -->
+    <app-info>
+        <name>MyApplication</name>
+        <version>1.0.0</version>
+        <description>示例应用程序配置</description>
+    </app-info>
+
+    <!-- 数据库配置 -->
+    <database>
+        <host>localhost</host>
+        <port>3306</port>
+        <name>myapp_db</name>
+        <username>db_user</username>
+        <password>db_password</password>
+        <connection-pool>
+            <max-connections>20</max-connections>
+            <min-connections>5</min-connections>
+        </connection-pool>
+    </database>
+
+    <!-- 服务器配置 -->
+    <server>
+        <port>8080</port>
+        <host>0.0.0.0</host>
+        <ssl-enabled>false</ssl-enabled>
+        <max-threads>100</max-threads>
+    </server>
+
+    <!-- 日志配置 -->
+    <logging>
+        <level>INFO</level>
+        <file-path>/var/log/myapp.log</file-path>
+        <max-file-size>10MB</max-file-size>
+        <max-backup-files>5</max-backup-files>
+    </logging>
+
+    <!-- 缓存配置 -->
+    <cache>
+        <provider>redis</provider>
+        <host>localhost</host>
+        <port>6379</port>
+        <default-expiration>3600</default-expiration>
+    </cache>
+
+    <!-- 自定义应用参数 -->
+    <custom-parameters>
+        <param name="feature-flag-new-ui" value="true" />
+        <param name="max-upload-size" value="50MB" />
+        <param name="maintenance-mode" value="false" />
+    </custom-parameters>
+</application-config>
