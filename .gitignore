@@ -1,14 +1,31 @@
-#Editor/IDE files
-.vscode/
+# Compiled and build artifacts
+*.o
+*.obj
+dist/
+build/
 
-#Environment files
-.env.local
-
-#Compiled/Binary files
-*.pyc
-
-#Dependency directories
+# Dependencies
+.venv/
+venv/
 node_modules/
 
-#Build artifacts
-dist/
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# Original rules preserved
+*.log
