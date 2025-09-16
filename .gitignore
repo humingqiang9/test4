@@ -1,14 +1,6 @@
-# R project
-.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
-
 # Compiled and build artifacts
 *.pyc
-pycache/
-*.o
-*.obj
+__pycache__/
 dist/
 build/
 
@@ -31,6 +23,6 @@ node_modules/
 .vscode/
 .idea/
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
