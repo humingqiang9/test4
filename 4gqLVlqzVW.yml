@@ -1,0 +1,16 @@
+# Randomly named YAML file
+# This file contains test configuration
+
+test-config:
+  environment: testing
+  database: test_db
+  timeout: 30
+  retry_count: 3
+  
+services:
+  - postgres:12
+  - redis:6.2
+
+variables:
+  TEST_VAR: "test_value"
+  DEBUG_MODE: true

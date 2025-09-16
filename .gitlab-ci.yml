@@ -1,0 +1,23 @@
+# This is a basic GitLab CI configuration file
+# It defines a pipeline with one job that runs tests
+
+stages:
+  - test
+
+variables:
+  # Define variables here if needed
+  NODE_VERSION: "16"
+
+# Job to run tests
+test_job:
+  stage: test
+  image: node:$NODE_VERSION
+  script:
+    - echo "Running tests..."
+    - npm install
+    - npm test
+  artifacts:
+    reports:
+      junit: test-results.xml
+  only:
+    - branches
