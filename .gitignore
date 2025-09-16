@@ -1,3 +1,16 @@
+# Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
 # Logs and temp files
 *.log
 *.tmp
@@ -11,20 +24,3 @@
 # Editors
 .vscode/
 .idea/
-
-# Compiled and build artifacts
-__pycache__/
-*.pyc
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-.julia/
-zig/
-target/
-.gradle/
