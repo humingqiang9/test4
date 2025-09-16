@@ -1,14 +1,24 @@
 # Compiled and build artifacts
-*.aux
-*.log
-*.out
-*.toc
-*.fls
-*.fdb_latexmk
-*.synctex.gz
-*.run.xml
+*.crystal
+.libs/
+.build/
+dist/
 
-# LaTeX build directories
-latex_documents/aux/
-latex_documents/log/
-latex_documents/out/
+# Dependencies
+lib/
+shard.lock
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
