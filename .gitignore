@@ -3,28 +3,16 @@
 __pycache__/
 dist/
 build/
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
 
 # Dependencies
 .venv/
 venv/
 node_modules/
-target/
-.gradle/
-julia-*/
-zig/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -34,5 +22,3 @@ zig/
 # Editors
 .vscode/
 .idea/
-.DS_Store
-Thumbs.db
