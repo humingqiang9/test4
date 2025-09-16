@@ -1,22 +1,49 @@
 # Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
 *.pyc
 __pycache__/
+*.pyo
+*.pyd
+*.pyc
+*.class
+*.jar
+*.war
+*.ear
+*.egg-info/
 dist/
 build/
+target/
+.gradle/
 
 # Dependencies
-vendor/
+node_modules/
+venv/
+.venv/
+julia-*/
+zig/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
