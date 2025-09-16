@@ -1,25 +1,56 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Protobuf and generated files
+*.proto
+*.pb.go
+*.pb.h
+*.pb.cc
+*.pb.cpp
+*.pb.c
+*.pb.java
+*.pb.js
+*.pb.ts
+*.pb.php
+*.pb.rb
+*.pb.swift
+*.pb.dart
+*.pb.kt
+*.pb.rs
+*.pb.scala
+*.pb.v
 
-#Dependencies
-node_modules/
-
-#Environment
+# Environment and sensitive files
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors and IDEs
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#System files
-.DS_Store
-Thumbs.db
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
-*.swp
+
+# Build and compile artifacts
+dist/
+build/
+target/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+
+# Dependency directories
+node_modules/
+venv/
+.venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+.gradle/
+julia-*/
+zig/
