@@ -1,23 +1,19 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Temp files and logs
+*.tmp
+*.log
+*.swp
+*.swo
 
-#Dependencies
-.venv/
-venv/
-node_modules/
-
-#Environment
+# Environment files
 .env
 .env.local
+*.env.*
 
-#Editors
+# IDE and editor files
 .vscode/
 .idea/
+.DS_Store
+Thumbs.db
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
+# Process list files (added manually as per the file change)
+process_list_*.txt
