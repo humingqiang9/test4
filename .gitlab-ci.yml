@@ -1,0 +1,41 @@
+# This file is auto-generated for GitLab CI/CD
+# It defines a basic pipeline with test stages
+
+stages:
+  - test
+
+variables:
+  # Define any variables needed for the pipeline
+  PYTHON_VERSION: "3.9"
+
+# Default settings for all jobs
+default:
+  image: python:${PYTHON_VERSION}
+  before_script:
+    - pip install -r requirements.txt || echo "No requirements.txt found"
+
+# Job to run tests
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    # Add your specific test commands here
+    # Example for python unittest:
+    # - python -m unittest discover
+    # Example for pytest:
+    # - pytest
+    # Example for a simple script test:
+    # - python factorial_script.py
+  artifacts:
+    reports:
+      junit: test-results.xml
+    paths:
+      - test-results.xml
+  allow_failure: false
+
+# Add more jobs as needed
+# lint:
+#   stage: test
+#   script:
+#     - flake8 .
+#   allow_failure: true
