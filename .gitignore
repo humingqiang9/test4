@@ -1,19 +1,7 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+# Data files
+books_data/
 
 # Environment
-.env
 .env.local
 
 # Editors
