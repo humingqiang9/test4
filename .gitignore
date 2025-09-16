@@ -1,10 +1,15 @@
 # Compiled and build artifacts
-target/
+*.pyc
+pycache/
 *.o
 *.obj
+dist/
+build/
 
 # Dependencies
-Cargo.lock
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
