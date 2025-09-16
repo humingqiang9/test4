@@ -1,20 +1,21 @@
-#MATLAB generated files
-*.m
+# HCL Configs - sensitive or generated files
+hcl_configs/*.hcl
 
-#Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Editors
+# IDE/Editor files
 .vscode/
 .idea/
+*.swp
+*.swo
 
-#System files
+# OS generated files
 .DS_Store
 Thumbs.db
+
+# Logs and temp files
+*.log
+*.tmp
