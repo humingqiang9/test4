@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Todo List</title>
+</head>
+<body>
+    <div id="root"></div>
+    
+    <!-- This is a simplified example. In a real React app, you would use a build tool like Webpack -->
+    <!-- to bundle your JavaScript and CSS files. -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    
+    <!-- In a real application, you would import the CSS file in your JS file -->
+    <link rel="stylesheet" href="TodoList_8f3nK9.css">
+    
+    <script type="text/babel">
+        // Importing the component (simplified for this example)
+        // In reality, you would import it using ES6 import syntax
+        const TodoList = () => {
+            // Component implementation would go here
+            // For this example, we're just showing the structure
+            return React.createElement('div', null, 'Todo List Component');
+        };
+        
+        function App() {
+            return React.createElement('div', {className: 'App'}, 
+                React.createElement(TodoList, null)
+            );
+        }
+        
+        ReactDOM.render(React.createElement(App, null), document.getElementById('root'));
+    </script>
+</body>
+</html>
