@@ -1,14 +1,15 @@
 # Compiled and build artifacts
-*.thrift
+*.pyc
+__pycache__/
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
-node_modules/
 .venv/
 venv/
-julia-*/
-zig/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -23,7 +24,3 @@ zig/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
