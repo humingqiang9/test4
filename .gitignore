@@ -1,11 +1,12 @@
-# Compiled and build artifacts
-*.rb.bak
-*.rb~
+# Database files
+*.db
 
-# Environment
+# Environment files
 .env
-.env.local
-.env.*
 
-# Editors
+# Python compiled files
+*.pyc
+__pycache__/
+
+# IDE files
 .vscode/
