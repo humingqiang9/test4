@@ -1,6 +1,16 @@
+# Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+.terraform/
+.terraform.lock.hcl
+
 # Compiled and build artifacts
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
 
