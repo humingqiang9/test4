@@ -1,29 +1,25 @@
+# Docker
+*.env
+.env.local
+.env.*
+
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
 dist/
 build/
 
 # Dependencies
+node_modules/
 .venv/
 venv/
-node_modules/
+
+# Editors
+.vscode/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# Original rules preserved
-*.log
+# System
+.DS_Store
+Thumbs.db
