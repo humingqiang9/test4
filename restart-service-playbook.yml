@@ -1,0 +1,19 @@
+---
+- name: Restart a service
+  hosts: localhost
+  become: yes
+  tasks:
+    - name: Restart the Apache service
+      ansible.builtin.service:
+        name: apache2
+        state: restarted
+      notify: Check service status
+
+  handlers:
+    - name: Check service status
+      ansible.builtin.command: systemctl status apache2
+      register: service_status
+
+    - name: Show service status
+      ansible.builtin.debug:
+        var: service_status.stdout_lines
