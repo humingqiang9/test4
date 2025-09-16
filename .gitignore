@@ -1,23 +1,28 @@
-# Elixir build artifacts
-*.beam
-*.ez
-deps/
-_build/
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.swp
-*.swo
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# Original rules preserved
-*.log
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
