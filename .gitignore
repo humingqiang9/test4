@@ -1,15 +1,26 @@
-# Temporary and script files
-script_*.sh
+#Compiled and build artifacts
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
 
-# Environment and local config
-.env
-.env.local
-*.env.*
+#Dependencies
+.venv/
+venv/
+node_modules/
 
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Editors
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
 .vscode/
+.idea/
