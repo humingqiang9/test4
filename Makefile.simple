@@ -1,0 +1,60 @@
+# C++ Project Makefile
+
+# Compiler and flags
+CXX = g++
+CXXFLAGS = -std=c++17 -Wall -Wextra -g
+INCLUDES = -Iinclude
+
+# Directories
+SRCDIR = src
+INCDIR = include
+TESTDIR = tests
+BUILDDIR = build
+
+# Source files
+SOURCES = $(wildcard $(SRCDIR)/*.cpp)
+OBJECTS = $(SOURCES:$(SRCDIR)/%.cpp=$(BUILDDIR)/%.o)
+
+# Test files
+TEST_SOURCES = $(wildcard $(TESTDIR)/*.cpp)
+TEST_TARGETS = $(TEST_SOURCES:$(TESTDIR)/%.cpp=$(BUILDDIR)/%)
+
+# Target executable
+TARGET = $(BUILDDIR)/main
+
+# Default target
+.PHONY: all
+all: build
+
+# Build the main executable
+.PHONY: build
+build:
+	mkdir -p $(BUILDDIR)
+	$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(TARGET) $(SOURCES)
+
+# Run tests
+.PHONY: test
+test:
+	mkdir -p $(BUILDDIR)
+	@echo "Compiling and running tests..."
+	@for test_src in $(TEST_SOURCES); do \
+		test_name=`basename $$test_src .cpp`; \
+		echo "Compiling $$test_name..."; \
+		$(CXX) $(CXXFLAGS) $(INCLUDES) -o $(BUILDDIR)/$$test_name $$test_src src/utils.cpp || exit 1; \
+		echo "Running $$test_name..."; \
+		$(BUILDDIR)/$$test_name || exit 1; \
+	done
+	@echo "All tests passed!"
+
+# Clean build artifacts
+.PHONY: clean
+clean:
+	rm -rf $(BUILDDIR)
+
+.PHONY: help
+help:
+	@echo "Makefile targets:"
+	@echo "  all     - Build the main executable (default)"
+	@echo "  build   - Build the main executable"
+	@echo "  test    - Compile and run tests"
+	@echo "  clean   - Remove build artifacts"
