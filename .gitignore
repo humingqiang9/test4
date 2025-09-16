@@ -1,28 +1,23 @@
-# Compiled and build artifacts
-*.pyc
-pycache/
-dist/
-build/
+# R build artifacts
+.RData
+.Rhistory
+.Rproj.user/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Environment
+# Environment and local config
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
 *.swp
+*.swo
 
-# System files
+# OS and system files
 .DS_Store
 Thumbs.db
+
+# Log and temp files
+*.log
+*.tmp
