@@ -1,43 +1,27 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
+*.pdf
+*.png
+Rplots.pdf
+scatter_plot.png
 
-# Dependencies
-node_modules/
-venv/
-.venv/
-julia-*/
-zig/
+# R build artifacts
+*.RData
+*.Rhistory
+*.Rproj.user/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors and IDEs
+# Editors
 .vscode/
 .idea/
-*.code-workspace
 
-# System files
-.DS_Store
-Thumbs.db
-desktop.ini
+# Original rules preserved
+*.log
