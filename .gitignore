@@ -1,26 +1,11 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+# PowerShell script artifacts
+*.ps1
+*.txt
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# Editor files
 .vscode/
-.idea/
