@@ -1,6 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
 build/
 
@@ -13,12 +13,3 @@ node_modules/
 
 # Editors
 .vscode/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
-.DS_Store
-Thumbs.db
