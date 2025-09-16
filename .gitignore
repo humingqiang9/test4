@@ -1,15 +1,28 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+target/
 
-#Dependencies
-node_modules/
+# Dependencies
+.gradle/
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
+.env.*
 
-#Editors
+# Editors
 .vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
