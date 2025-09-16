@@ -1,16 +1,57 @@
-# Temp files and scripts
-disk_check_*
+# Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+dist/
+build/
+target/
+
+# Scala-specific
+*.class
+*.jar
+.scala_dependencies
+.scala_history
+.scalafmt.conf
+.scalastyle_config.xml
+project/target/
+project/project/target/
+
+# Dependencies
+.scala/
+.sbt/
+.ivy2/
+.coursier/
+node_modules/
+venv/
+.venv/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
 # Editors
 .vscode/
 .idea/
+*.iml
+*.iws
+out/
+.idea_modules/
+
+# OS-generated
+.DS_Store
+Thumbs.db
+desktop.ini
