@@ -1,42 +1,20 @@
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Node.js / Angular
+node_modules/
+
+# Environment files
 .env
 .env.local
-*.env.*
+.env.*
 
-# Compiled/Binary files
-*.pyc
-*.class
-*.o
-*.exe
-*.dll
-*.so
-*.a
-*.obj
-*.out
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
-__pycache__/
-dist/
-build/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
-
-# Editor/IDE files
+# IDEs
 .vscode/
 .idea/
-*.swp
-*.swo
 
 # Logs and temp files
 *.log
 *.tmp
-coverage/
-htmlcov/
-.coverage
+*.swp
+
+# OS generated
+.DS_Store
+Thumbs.db
