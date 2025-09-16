@@ -1,30 +1,30 @@
-# Compiled and build artifacts
-*.swiftmodule
-*.swiftdoc
-*.o
-*.obj
+# Node.js / Vue.js project ignores
+
+# Dependency directories
+node_modules/
+
+# Build outputs
 dist/
 build/
 
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
+# Environment files
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temp files
+*.log
+*.tmp
 
 # System files
 .DS_Store
 Thumbs.db
+
+# TypeScript / JavaScript build artifacts
+*.tsbuildinfo
