@@ -1,4 +1,6 @@
 # Compiled and build artifacts
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
@@ -22,12 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
-
-# Fortran-specific
-*.mod
-*.smod
-*.f90~
