@@ -1,11 +1,6 @@
-# Temp files
-Makefile_Ir7NgMSg
-
 # Compiled and build artifacts
 *.pyc
-pycache/
-*.o
-*.obj
+__pycache__/
 dist/
 build/
 
@@ -22,7 +17,6 @@ node_modules/
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
