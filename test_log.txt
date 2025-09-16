@@ -1,0 +1,6 @@
+INFO: System started
+ERROR: Failed to load module
+DEBUG: Variable x = 5
+ERROR: Database connection timeout
+WARNING: Disk space low
+ERROR: Null pointer exception
