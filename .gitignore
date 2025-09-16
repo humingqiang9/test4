@@ -1,6 +1,12 @@
+# R project
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 *.o
 *.obj
 dist/
@@ -25,5 +31,6 @@ node_modules/
 .vscode/
 .idea/
 
-# Original rules preserved
-*.log
+# System files
+.DS_Store
+Thumbs.db
