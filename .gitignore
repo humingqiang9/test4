@@ -1,5 +1,4 @@
 # Compiled and build artifacts
-*.class
 *.o
 *.obj
 *.exe
@@ -7,21 +6,20 @@
 *.so
 *.a
 *.out
+*.class
+*.pyc
+__pycache__/
 dist/
 build/
-*.jar
-*.war
-*.ear
+target/
+.gradle/
 
 # Dependencies
 node_modules/
 venv/
 .venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
-target/
-.gradle/
+julia-*/
+zig/
 
 # Logs and temp files
 *.log
@@ -37,13 +35,8 @@ target/
 # Editors
 .vscode/
 .idea/
-*.iml
+*.adb~ # Ada temporary files, since the added file is .adb
 
 # System
 .DS_Store
 Thumbs.db
-
-# Coverage
-coverage/
-htmlcov/
-.coverage
