@@ -1,11 +1,14 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
-vendor/
+.venv/
+venv/
 node_modules/
 
 # Logs and temp files
@@ -21,9 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-*.sublime-project
-*.sublime-workspace
-
-# System files
-.DS_Store
-Thumbs.db
