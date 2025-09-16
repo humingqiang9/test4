@@ -1,27 +1,10 @@
-# Backup artifacts
-backups/
-
-# Temporary and log files
-*.tmp
-*.log
-
-# Environment files
-.env
-.env.local
-
-# IDE and editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
-build/
 
-# Dependency directories
-.venv/
-venv/
-node_modules/
+# Environment
+.env.local
+
+# Editors
+.vscode/
