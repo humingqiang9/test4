@@ -1,15 +1,6 @@
-# Terraform
-*.tfstate
-*.tfstate.backup
-*.tfvars
-*.tfvars.json
-.terraform/
-
 # Compiled and build artifacts
 *.pyc
 pycache/
-*.o
-*.obj
 dist/
 build/
 
@@ -31,3 +22,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+
+# Original rules preserved
+*.log
