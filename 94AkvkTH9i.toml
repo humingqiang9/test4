@@ -1,0 +1,26 @@
+# App Configuration Settings
+
+[server]
+host = "localhost"
+port = 8080
+debug = true
+
+[database]
+host = "localhost"
+port = 5432
+name = "myapp"
+user = "dbuser"
+password = "dbpassword"
+
+[logging]
+level = "info"
+file = "app.log"
+
+[features]
+enable_cache = true
+cache_timeout = 300
+max_connections = 100
+
+[security]
+secret_key = "supersecretkey"
+token_expiry = 3600
