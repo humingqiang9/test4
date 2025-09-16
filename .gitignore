@@ -1,15 +1,10 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-*.o
-*.obj
-dist/
-build/
+*.pdf
+*.png
+*.Rplots
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# R-specific files
+r_plots/
 
 # Logs and temp files
 *.log
@@ -19,7 +14,7 @@ node_modules/
 # Environment
 .env
 .env.local
-*.env.*
+.env.*
 
 # Editors
 .vscode/
