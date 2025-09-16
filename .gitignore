@@ -1,34 +1,13 @@
-# Compiled and build artifacts
-*.dart-tool/
-.dart_tool/
-.packages
-.pub-cache/
-.pub/
-build/
+#Compiled and build artifacts
+*.pyc
+pycache/
 dist/
 
-# Dependencies
-.dart_tool/
-.packages
-.pub-cache/
-.pub/
+#Dependencies
 node_modules/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# Environment
-.env
+#Environment
 .env.local
-.env.*
 
-# Editors
+#Editors
 .vscode/
-.idea/
-*.code-workspace
-
-# System/Environment files
-.DS_Store
-Thumbs.db
