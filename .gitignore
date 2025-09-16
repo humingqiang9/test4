@@ -1,6 +1,8 @@
 # Compiled and build artifacts
 *.pyc
 pycache/
+*.o
+*.obj
 dist/
 build/
 
@@ -9,9 +11,22 @@ build/
 venv/
 node_modules/
 
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
 # Environment
 .env
 .env.local
+.env.*
 
 # Editors
 .vscode/
+.idea/
+
+# Julia-specific
+julia-*/
+
+# Original rules preserved
+*.log
