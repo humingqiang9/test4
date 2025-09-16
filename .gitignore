@@ -1,6 +1,20 @@
 # Compiled and build artifacts
-*.proto
-*.txt
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -9,3 +23,4 @@
 
 # Editors
 .vscode/
+.idea/
