@@ -1,9 +1,6 @@
-# MATLAB files
-*.m~
-
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 *.o
 *.obj
 dist/
