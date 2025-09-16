@@ -1,9 +1,23 @@
 # Compiled and build artifacts
-*.ts
-userProfileComponent_36lqaFc.ts
+*.pyc
+__pycache__/
+dist/
+build/
 
 # Dependencies
 node_modules/
+.venv/
+venv/
+julia-*/
+zig/
+target/
+.gradle/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -13,11 +27,6 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # System/Environment files
 .DS_Store
