@@ -1,10 +1,19 @@
-#Compiled and build artifacts
-*.pyc
-pycache/
-dist/
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
 
-#Environment
-.env.local
-
-#Editors
+# Editor/IDE files
 .vscode/
+.idea/
+*.swp
+*.swo
+
+# System files
+.DS_Store
+Thumbs.db
