@@ -1,14 +1,17 @@
 # Compiled and build artifacts
-*.class
-*.pyc
-__pycache__/
+*.dart.js
+*.dart.js.map
+*.dart.deps
+*.dart.digests
+*.dart.info
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+.dart_tool/
+pubspec.lock
 
 # Logs and temp files
 *.log
