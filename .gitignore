@@ -1,12 +1,16 @@
-# Serverless Framework
-.serverless/
-node_modules/
-
 # Compiled and build artifacts
 *.pyc
-__pycache__/
-dist/
-build/
+*.pl
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -17,11 +21,6 @@ build/
 .vscode/
 .idea/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
