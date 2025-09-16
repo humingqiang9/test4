@@ -1,5 +1,13 @@
-# HTML files (generated or temporary)
-*.html
+# Compiled and build artifacts
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -15,6 +23,11 @@
 .vscode/
 .idea/
 
-# System files
+# System/Environment files
 .DS_Store
 Thumbs.db
+
+# Fortran-specific
+*.mod
+*.smod
+*.f90~
