@@ -1,6 +1,8 @@
 # Compiled and build artifacts
-*.ts
-angular-components/
+*.pyc
+pycache/
+dist/
+build/
 
 # Dependencies
 node_modules/
