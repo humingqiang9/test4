@@ -6,11 +6,8 @@ build/
 
 # Dependencies
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+.venv/
+venv/
 
 # Environment
 .env
