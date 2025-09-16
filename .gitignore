@@ -1,29 +1,20 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.so
-*.dll
-*.exe
-*.out
 *.pyc
 __pycache__/
+*.o
+*.obj
 dist/
 build/
-target/
 
 # Dependencies
-node_modules/
-venv/
 .venv/
-.gradle/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -33,11 +24,3 @@ venv/
 # Editors
 .vscode/
 .idea/
-*.iml
-
-# System
-.DS_Store
-Thumbs.db
-
-# Original rules preserved
-*.log
