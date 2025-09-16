@@ -1,17 +1,19 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-dist/
+*.dart-tool/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
 build/
-target/
+dist/
 
 # Dependencies
+.dart_tool/
+flutter/
+julia-*/
+zig/
+target/
 .gradle/
-node_modules/
-.venv/
-venv/
 
 # Logs and temp files
 *.log
@@ -27,8 +29,11 @@ venv/
 # Editors
 .vscode/
 .idea/
-*.iml
+*.code-workspace
 
 # System/Environment files
 .DS_Store
 Thumbs.db
+
+# Original rules preserved
+*.log
