@@ -1,14 +1,14 @@
 # Compiled and build artifacts
-*.class
-*.pyc
-__pycache__/
+*.pp
+*.o
+*.obj
 dist/
 build/
 
 # Dependencies
-node_modules/
 .venv/
 venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -23,3 +23,9 @@ venv/
 # Editors
 .vscode/
 .idea/
+
+# Puppet-specific
+puppet/*.pp
+
+# Original rules preserved
+*.log
