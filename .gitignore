@@ -1,20 +1,4 @@
-#Dependencies
-node_modules/
-
-#Environment
-.env
-.env.local
-.env.*
-
-#Compiled and build artifacts
-dist/
-build/
-
-#Logs and temp files
-*.log
-*.tmp
-*.swp
-
-#Editor/IDE files
-.vscode/
-.idea/
+# Compiled and build artifacts
+*.o
+*.obj
+Makefile_*
