@@ -1,5 +1,19 @@
 # Compiled and build artifacts
-*.sql~
+*.plc
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
 
 # Environment
 .env
@@ -9,9 +23,3 @@
 # Editors
 .vscode/
 .idea/
-*.swp
-*.swo
-
-# Logs and temp files
-*.log
-*.tmp
