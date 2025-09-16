@@ -1,12 +1,35 @@
-# Serverless Framework
-.serverless/
-node_modules/
-
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.rds
+*.RData
+*.Rhistory
+*.Rproj.user/
+*.Rcheck/
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.class
+*.o
+*.obj
 dist/
 build/
+
+# Dependencies
+renv/library/
+renv/staging/
+packrat/lib/
+packrat/lib-ext/
+packrat/src/
+packrat/bundles/
+packrat/cache/
+*.Rbuildignore
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
@@ -14,14 +37,13 @@ build/
 .env.*
 
 # Editors
+.Rproj.user/
+.vscache/
 .vscode/
-.idea/
+.Rhistory
+.RData
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-
-# System files
+# OS generated files
 .DS_Store
 Thumbs.db
+desktop.ini
