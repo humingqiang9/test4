@@ -1,3 +1,23 @@
 # Compiled and build artifacts
-*.dart
-greeting_widget_*
+*.pyc
+__pycache__/
+*.o
+*.obj
+dist/
+build/
+
+# Dependencies
+node_modules/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# Environment
+.env
+.env.local
+
+# Editors
+.vscode/
+.idea/
