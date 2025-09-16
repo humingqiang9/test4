@@ -1,5 +1,13 @@
-# MATLAB files
-*.m~
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -9,7 +17,7 @@
 # Environment
 .env
 .env.local
-.env.*
 
 # Editors
 .vscode/
+.idea/
