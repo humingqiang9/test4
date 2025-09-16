@@ -1,2 +1,23 @@
-# Docker artifacts
-Dockerfile_*
+# Docker
+.env
+.env.local
+.env.*.local
+
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+
+# System
+.DS_Store
+Thumbs.db
