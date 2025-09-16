@@ -1,0 +1,5 @@
+This is a sample text file.
+This file is for testing the Perl script.
+The Perl script will count word frequency.
+Word frequency counting is useful for text analysis.
+This is the end of the sample text file.
