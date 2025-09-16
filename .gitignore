@@ -1,23 +1,15 @@
-# Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
+# Temporary and script files
+script_*.sh
 
-# Dependencies
-.venv/
-venv/
-node_modules/
+# Environment and local config
+.env
+.env.local
+*.env.*
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-
 # Editors
 .vscode/
-.idea/
