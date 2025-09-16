@@ -1,30 +1,27 @@
+# Node.js project artifacts and dependencies
+node_modules/
+dist/
+build/
+
+# Test artifacts
+coverage/
+.nyc_output/
+
+# Environment variables
+.env
+.env.local
+.env.*
+
 # Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.code-workspace
 
-# Compiled and build artifacts
-__pycache__/
-*.pyc
-*.o
-*.obj
-dist/
-build/
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-.julia/
-zig/
-target/
-.gradle/
+# OS generated files
+.DS_Store
+Thumbs.db
