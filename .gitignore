@@ -1,18 +1,5 @@
 # Compiled and build artifacts
-*.php
-*.pyc
-pycache/
-dist/
-build/
-
-# Dependencies
-vendor/
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.tsbuildinfo
 
 # Environment
 .env
@@ -21,4 +8,3 @@ node_modules/
 
 # Editors
 .vscode/
-.idea/
