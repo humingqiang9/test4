@@ -1,6 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-pycache/
+__pycache__/
 dist/
 build/
 
@@ -8,6 +8,7 @@ build/
 node_modules/
 
 # Environment
+.env
 .env.local
 
 # Editors
