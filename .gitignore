@@ -1,6 +1,10 @@
 # Compiled and build artifacts
 *.pyc
+__pycache__/
+*.o
+*.obj
 dist/
+build/
 
 # Dependencies
 node_modules/
@@ -16,6 +20,4 @@ node_modules/
 
 # Editors
 .vscode/
-
-# Original rules preserved
-*.log
+.idea/
