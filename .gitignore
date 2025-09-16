@@ -1,22 +1,18 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
-dist/
-build/
-
-# Dependencies
-node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.php~*
+car_e5db9677d1.php
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# IDE and editor files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Logs and temporary files
+*.log
+*.tmp
