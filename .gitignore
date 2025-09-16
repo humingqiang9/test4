@@ -1,23 +1,29 @@
-# Serverless and Node.js project ignores
-node_modules/
+# Compiled and build artifacts
+*.crystal
+*.o
+*.obj
 dist/
 build/
 
-# Environment variables
-.env
-.env.local
-.env.*
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Dependencies
+.libs/
+.jpm/
+.crystal/
 
 # Logs and temp files
 *.log
 *.tmp
+*.swp
 
-# Serverless specific
-.serverless/
-sls-*/
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
