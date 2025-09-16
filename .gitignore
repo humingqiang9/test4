@@ -1,42 +1,18 @@
 # Compiled and build artifacts
-*.class
-*.jar
-*.war
-*.ear
-*.o
-*.obj
-*.so
-*.dll
-*.exe
-*.out
+*.pyc
+__pycache__/
 dist/
 build/
-target/
-
-# Scala-specific
-*.class
-*.jar
-.scala_dependencies
-.scala_history
-.scalafmt.conf
-.scalastyle_config.xml
-project/target/
-project/project/target/
 
 # Dependencies
-.scala/
-.sbt/
-.ivy2/
-.coursier/
-node_modules/
-venv/
 .venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
 # Environment
 .env
@@ -46,12 +22,3 @@ venv/
 # Editors
 .vscode/
 .idea/
-*.iml
-*.iws
-out/
-.idea_modules/
-
-# OS-generated
-.DS_Store
-Thumbs.db
-desktop.ini
