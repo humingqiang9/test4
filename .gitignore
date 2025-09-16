@@ -1,1 +1,22 @@
-(empty — output nothing)
+# Deployment artifacts
+nodejs-deployment-*
+
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
