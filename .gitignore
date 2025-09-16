@@ -1,26 +1,14 @@
 # Compiled and build artifacts
-*.pyc
-*.pl
-
-# Dependencies
-.venv/
-venv/
-node_modules/
-
-# Logs and temp files
+*.aux
 *.log
-*.tmp
-*.swp
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-
-# System/Environment files
-.DS_Store
-Thumbs.db
+# LaTeX build directories
+latex_documents/aux/
+latex_documents/log/
+latex_documents/out/
