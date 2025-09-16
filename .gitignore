@@ -1,14 +1,18 @@
+# Docker
+*.[Dd]ockerfile
+
 # Compiled and build artifacts
-*.crystal
+*.pyc
+__pycache__/
 *.o
 *.obj
 dist/
 build/
 
 # Dependencies
-.libs/
-.jpm/
-.crystal/
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -23,7 +27,3 @@ build/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
