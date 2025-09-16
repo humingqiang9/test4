@@ -1,22 +1,26 @@
-# Deployment artifacts
-nodejs-deployment-*
+#Compiled and build artifacts
+*.pyc
+pycache/
+*.o
+*.obj
+dist/
+build/
 
-# Dependencies
+#Dependencies
+.venv/
+venv/
 node_modules/
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-
-# Logs and temp files
+#Logs and temp files
 *.log
 *.tmp
 *.swp
 
-# System files
-.DS_Store
-Thumbs.db
+#Environment
+.env
+.env.local
+.env.*
+
+#Editors
+.vscode/
+.idea/
