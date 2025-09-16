@@ -1,14 +1,15 @@
 # Compiled and build artifacts
-*.crystal
+*.pyc
+__pycache__/
 *.o
 *.obj
-build/
 dist/
+build/
 
 # Dependencies
-lib/
-deps/
-shard.lock
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -23,8 +24,3 @@ shard.lock
 # Editors
 .vscode/
 .idea/
-*.cr~
-
-# System files
-.DS_Store
-Thumbs.db
