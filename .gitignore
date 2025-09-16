@@ -1,6 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
+pycache/
 dist/
 build/
 
@@ -8,11 +8,6 @@ build/
 .venv/
 venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Environment
 .env
