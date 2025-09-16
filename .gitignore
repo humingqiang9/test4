@@ -1,45 +1,25 @@
 # Compiled and build artifacts
-*.o
-*.obj
-*.exe
-*.dll
-*.so
-*.a
-*.out
-
-# Build directories
-build/
+*.jsx
 dist/
+build/
 
-# Dependency directories
+# Dependencies
 node_modules/
-venv/
-.venv/
-target/
-.gradle/
 
-# Python-specific ignores (if applicable)
-__pycache__/
-*.pyc
-.mypy_cache/
-.pytest_cache/
-
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
-
-# System/Environment files
-.DS_Store
-Thumbs.db
+# Environment
 .env
 .env.local
-*.env.*
+.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Logs and temp files
 *.log
 *.tmp
-coverage/
-htmlcov/
-.coverage
+*.swp
+
+# System files
+.DS_Store
+Thumbs.db
