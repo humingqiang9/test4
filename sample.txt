@@ -1,0 +1,4 @@
+This is a sample text file.
+It contains several words.
+Some words are repeated, like "sample" and "words".
+This file is for testing the word frequency counter.
