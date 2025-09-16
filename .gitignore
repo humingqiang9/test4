@@ -1,8 +1,6 @@
 # Compiled and build artifacts
 *.pyc
-__pycache__/
-*.o
-*.obj
+pycache/
 dist/
 build/
 
@@ -10,11 +8,6 @@ build/
 .venv/
 venv/
 node_modules/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Environment
 .env
@@ -25,9 +18,11 @@ node_modules/
 .vscode/
 .idea/
 
-# System/Environment files
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+
+# System files
 .DS_Store
 Thumbs.db
-
-# Original rules preserved
-*.log
