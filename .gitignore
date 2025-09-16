@@ -1,5 +1,13 @@
-# Ansible
-*.retry
+# Compiled and build artifacts
+*.pyc
+__pycache__/
+dist/
+build/
+
+# Dependencies
+.venv/
+venv/
+node_modules/
 
 # Logs and temp files
 *.log
@@ -9,8 +17,101 @@
 # Environment
 .env
 .env.local
-.env.*
+*.env.*
 
 # Editors
 .vscode/
 .idea/
+
+# System/Environment files
+.DS_Store
+Thumbs.db
+
+# LaTeX temporary files
+*.aux
+*.toc
+*.log
+*.out
+*.bbl
+*.blg
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.run.xml
+*.bcf
+*.nlo
+*.nls
+*.glo
+*.gls
+*.idx
+*.ilg
+*.ind
+*.ist
+*.maf
+*.mtc
+*.mtc0
+*.bak
+*.tmp
+*.dvi
+*.ps
+*.pdf
+*.synctex
+*.tdo
+*.nav
+*.snm
+*.vrb
+*.lol
+*.loe
+*.loc
+*.lop
+*.lsp
+*.ltp
+*.ltg
+*.lfg
+*.lfl
+*.lhl
+*.lhr
+*.ltx
+*.tex~
+*.bib~
+*.cls~
+*.sty~
+*.clo~
+*.def~
+*.cfg~
+*.dtx~
+*.ins~
+*.fd~
+*.bbx~
+*.cbx~
+*.lbx~
+*.mkiv~
+*.mkvi~
+*.mkii~
+*.mk~
+*.mp~
+*.mf~
+*.mfl~
+*.mfn~
+*.mpx~
+*.mpt~
+*.mpy~
+*.mpp~
+*.mps~
+*.mpv~
+*.mpx~
+*.mpy~
+*.mp~
+*.mf~
+*.mfl~
+*.mfn~
+*.mpx~
+*.mpt~
+*.mpy~
+*.mpp~
+*.mps~
+*.mpv~
+*.mpx~
+*.mpy~
