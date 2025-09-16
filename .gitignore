@@ -1,12 +1,9 @@
 # Compiled and build artifacts
-*.pyc
-__pycache__/
+*.css.map
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
 node_modules/
 
 # Logs and temp files
@@ -26,6 +23,3 @@ node_modules/
 # System/Environment files
 .DS_Store
 Thumbs.db
-
-# Original rules preserved
-*.log
