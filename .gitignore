@@ -1,26 +1,33 @@
-#Compiled and build artifacts
-*.pyc
-__pycache__/
+# Compiled and build artifacts
+*.crystal
+*.o
+*.obj
 dist/
 build/
 
-#Dependencies
-node_modules/
-.venv/
-venv/
+# Dependencies
+libs/
+.julia/
+.zig/
+target/
+.gradle/
 
-#Environment
-.env
-.env.local
-
-#Editors
-.vscode/
-
-#Logs and temp files
+# Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
-#System files
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors
+.vscode/
+.idea/
+*.cr~
+
+# System files
 .DS_Store
 Thumbs.db
