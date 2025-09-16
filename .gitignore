@@ -1,27 +1,49 @@
-# Serverless Framework
-.serverless/
-node_modules/
-
 # Compiled and build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.out
+*.class
 *.pyc
 __pycache__/
 dist/
 build/
+target/
+.gradle/
+
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig/
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
 
 # Environment
 .env
 .env.local
 .env.*
 
-# Editors
+# Editors and IDEs
 .vscode/
 .idea/
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
+*.code-workspace
 
 # System files
 .DS_Store
 Thumbs.db
+
+# Coverage and cache
+coverage/
+htmlcov/
+.coverage
+.mypy_cache/
+.pytest_cache/
