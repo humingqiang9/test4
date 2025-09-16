@@ -1,42 +1,37 @@
-#Compiled and build artifacts
-*.exe
-*.dll
+# Compiled and build artifacts
+*.o
+*.obj
+*.mod
 *.so
-*.a
+*.dll
+*.exe
 *.out
-*.class
-*.pyc
-__pycache__/
-dist/
-build/
-target/
-.gradle/
 
-#Dependencies
-node_modules/
+# Dependencies
 venv/
 .venv/
-.mypy_cache/
-.pytest_cache/
+julia-*/
+zig/
 
-#Environment
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Environment
 .env
 .env.local
 .env.*
 
-#Editors
+# Editors
 .vscode/
 .idea/
-*.swp
-*.swo
+*.code-workspace
 
-#System
+# System/Environment files
 .DS_Store
 Thumbs.db
 
-#Logs and temp files
+# Original rules preserved
 *.log
-*.tmp
-coverage/
-htmlcov/
-.coverage
