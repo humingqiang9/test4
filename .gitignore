@@ -1,13 +1,12 @@
 # Compiled and build artifacts
-*.o
-*.obj
+*.php
+*.pyc
+pycache/
 dist/
 build/
 
 # Dependencies
-.venv/
-venv/
-node_modules/
+vendor/
 
 # Logs and temp files
 *.log
@@ -22,6 +21,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# Original rules preserved
-*.log
