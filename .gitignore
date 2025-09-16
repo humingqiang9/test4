@@ -1,9 +1,3 @@
-# R project
-.Rproj.user/
-.Rhistory
-.RData
-.Ruserdata
-
 # Compiled and build artifacts
 *.pyc
 pycache/
@@ -30,7 +24,3 @@ node_modules/
 # Editors
 .vscode/
 .idea/
-
-# System files
-.DS_Store
-Thumbs.db
