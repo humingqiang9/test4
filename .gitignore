@@ -1,12 +1,26 @@
-#Compiled and build artifacts
-*.pyc
-dist/
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.pdf
 
-#Dependencies
-node_modules/
+# Temporary and system files
+*.tmp
+.DS_Store
+Thumbs.db
 
-#Environment
+# Environment files
+.env
 .env.local
-
-#Editors
-.vscode/
+.env.*
