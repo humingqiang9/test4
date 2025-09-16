@@ -1,20 +1,32 @@
 # Compiled and build artifacts
+*.class
+*.jar
+*.war
+*.ear
+*.so
+*.dll
+*.exe
+*.out
 *.pyc
 __pycache__/
-*.o
-*.obj
 dist/
 build/
+target/
+.scala_dependencies
 
 # Dependencies
-.venv/
-venv/
+.scala/
+.metals/
+.bloop/
 node_modules/
+venv/
+.venv/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
+*.swo
 
 # Environment
 .env
@@ -24,3 +36,10 @@ node_modules/
 # Editors
 .vscode/
 .idea/
+*.iml
+*.iws
+*.ipr
+
+# OS generated
+.DS_Store
+Thumbs.db
