@@ -1,16 +1,10 @@
-# Temp files and scripts
-disk_check_*
+# Compiled and build artifacts
+*.pyc
+pycache/
+dist/
 
 # Environment
-.env
 .env.local
-.env.*
-
-# Logs and temp files
-*.log
-*.tmp
-*.swp
 
 # Editors
 .vscode/
-.idea/
