@@ -1,52 +1,28 @@
 # Compiled and build artifacts
-*.scala-jars
-*.class
-*.jar
-*.war
-*.ear
-*.so
-*.dll
-*.exe
-*.out
-*.o
-*.obj
+*.pyc
+pycache/
 dist/
 build/
-target/
 
 # Dependencies
-.scala/
-.scala_dependencies
-.scala_history
-julia-*/
-zig/
-.gradle/
-node_modules/
 .venv/
 venv/
-__pycache__/
-.mypy_cache/
-.pytest_cache/
+node_modules/
+
+# Environment
+.env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
 
 # Logs and temp files
 *.log
 *.tmp
 *.swp
-*.swo
 
-# Environment
-.env
-.env.local
-.env.*
-
-# Editors
-.vscode/
-.idea/
-*.iml
-
-# System
+# System files
 .DS_Store
 Thumbs.db
-
-# Original rules preserved
-*.log
