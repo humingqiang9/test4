@@ -1,42 +1,43 @@
-# System/Environment files
-.DS_Store
-Thumbs.db
-.env
-.env.local
-*.env.*
-
-# Compiled/Binary files
-*.pyc
-*.class
+# Compiled and build artifacts
 *.o
+*.obj
 *.exe
 *.dll
 *.so
 *.a
-*.obj
 *.out
-
-# Dependency directories
-node_modules/
-venv/
-.venv/
+*.class
+*.pyc
 __pycache__/
 dist/
 build/
-.mypy_cache/
-.pytest_cache/
 target/
 .gradle/
 
-# Editor/IDE files
-.vscode/
-.idea/
-*.swp
-*.swo
+# Dependencies
+node_modules/
+venv/
+.venv/
+julia-*/
+zig/
 
 # Logs and temp files
 *.log
 *.tmp
-coverage/
-htmlcov/
-.coverage
+*.swp
+*.swo
+
+# Environment
+.env
+.env.local
+.env.*
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
